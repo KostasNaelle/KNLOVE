@@ -15,7 +15,10 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-color: #d1ddea
+  .exemple_trois {
+  background-color: ##d1ddea;
+  color: #d1ddea;
+}
 }
 
 .portfolio-item {
