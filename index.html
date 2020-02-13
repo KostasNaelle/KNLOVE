@@ -75,7 +75,33 @@ autostart="true">
 
     <h1 class="my-4">Happy Valentine Day</h1>
 
-
+    <SCRIPT>
+    function passWord() {
+    var testV = 1;
+    var pass1 = prompt('What is the password babe',' ');
+    while (testV < 3) {
+    if (!pass1)
+    history.go(-1);
+    if (pass1.toLowerCase() == "8nkonstantinos") {
+    alert('You Got it Right! I am so proud of you !');
+    window.open('https://knlove6.tumblr.com/');
+    break;
+    }
+    testV+=1;
+    var pass1 =
+    prompt('Access Denied - Password Incorrect, Please Try Again babe','Password');
+    }
+    if (pass1.toLowerCase()!="password" & testV ==3)
+    history.go(-1);
+    return " ";
+    }
+    </SCRIPT>
+    <CENTER>
+    <FORM>
+    <input type="button" value="Enter Protected Area" onClick="passWord()">
+    </FORM>
+    </CENTER>
+    
     <!-- Marketing Icons Section -->
     <div class="row">
       <div class="col-lg-4 mb-4">
